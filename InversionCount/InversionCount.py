@@ -1,5 +1,6 @@
 import numpy
 arr = numpy.loadtxt("IntegerArray.txt")
+#Time complexity of below algorithm is O(nlogn) same as that of merge sort because of just one additional step
 
 def mergeSort(arr, tmp, l, r):
     """
