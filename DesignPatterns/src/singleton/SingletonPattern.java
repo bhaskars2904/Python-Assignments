@@ -7,9 +7,22 @@ public class SingletonPattern {
         System.out.println("s1.i = "+s1.i);
         System.out.println("s2.i = "+s2.i);
     }
-    static SingleObj s1 = SingleObj.getInstance();
-    static SingleObj s2 = SingleObj.getInstance();
+    static SingleObj s1 = new SingleObj();
+    static SingleObj s2 = new SingleObj();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //public class SingletonPattern {
 //    public static void main(String[] args) {
